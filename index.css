@@ -1,0 +1,43 @@
+.first
+{
+    background-image: url("assets/backgrounds/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size :30px;
+    display: flex;
+    
+
+}
+.first>div{
+    justify-content: space-between;
+    align-items: center;
+}
+#section{
+    /* background-color: green; */
+    
+    display: flex;
+    text-align: center;
+}
+.party{
+    background-color: rgb(238, 225, 231);
+    height: 200px;
+    width: 455px;
+}.lunch{
+    background-image: url("assets/foodtop/dinner2.jpg");
+    height: 200px;
+    width: 455px;
+}
+#din{
+    background-image: url("assets/foodtop/dinner.jpg");
+    height: 200px;
+    width: 455px;
+}
+
+#break{
+    background-image: url("assets/foodtop/breakfast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 455px;
+}
