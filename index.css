@@ -83,7 +83,8 @@
 .img{
     border: 2px solid #eff3ef;
     padding: 10px;
-}.fastfood>div:last-child{
+}
+.fastfood>div:last-child{
     color: black;
     margin: 90px;
     opacity: 0.6;
@@ -108,4 +109,17 @@ span>b{
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+}
+#drinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.img{
+    border: 2px solid #eff3ef;
+    display: inline-flexbox;
+}
+#img1{
+    border: 2px solid green;
 }
