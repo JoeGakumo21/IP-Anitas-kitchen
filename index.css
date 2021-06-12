@@ -136,6 +136,7 @@ span>b{
     margin-left:300px;
     width: 70%;
     box-shadow: 0px 0px 10px 1px grey;
+    margin-bottom: 60px;
     
 }
 .customers>.cust{
@@ -186,6 +187,8 @@ a{
     display: flex;
     width: 80%;
     margin: 200px;
+    margin-bottom: 70px;
+    margin-top: 40px;
 }
 #inner-content{
     background-color: white;
