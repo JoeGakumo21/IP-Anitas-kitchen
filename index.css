@@ -244,4 +244,30 @@ h3{
     background-image: url("assets/backgrounds/subscribe.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+footer{
+    background-color: red;
+    height: 300px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+   
+}
+.menufooter{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+.menufooter>h1{
+    padding: 20px;
 }
