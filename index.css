@@ -121,7 +121,10 @@ span>b{
     display: inline-flexbox;
 }
 #img1{
-    border: 2px solid green;
+    background-color: gainsboro;
+    border: 2px solid honeydew;
+    box-shadow: 0px 0px 5px 2px honeydew;
+
 }
 /* .imgs{
     background-image:url("assets/backgrounds/foodsBg.jpg");
@@ -150,6 +153,7 @@ span>b{
     justify-content: center;
     align-items: center;
     margin: 20%;
+    box-shadow: 0px 0px 10px 1px grey;
 }
 .customers>.cust{
     border-right: 2px solid green;
@@ -162,4 +166,20 @@ span>b{
 #aboutmenu
 {
     margin: 20px;
+}
+/* styling main content on food */
+#main-content{
+    background-image: url("assets/backgrounds/foodsBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding: 10px;
+    display: flex;
+}
+#main-content>.foods{
+    background-color: green;
+    margin: 10px;
+    flex: 4;
+    align-content: center;
+    height: 50px;
 }
