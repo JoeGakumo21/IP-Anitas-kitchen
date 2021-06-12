@@ -196,6 +196,14 @@ a{
     justify-content: center;
     
 }
+/* styling forward and backword icons */
+#pictures>a{
+color: red;
+font-size: 90px;
+
+}
+/* end  */
+/* table styling */
 table{
     border-collapse: collapse;
     width: 100%;
