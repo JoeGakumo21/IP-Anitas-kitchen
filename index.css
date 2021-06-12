@@ -250,7 +250,7 @@ h3{
 }
 .details{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-content: center;
     
 }
@@ -271,3 +271,4 @@ footer{
 .menufooter>h1{
     padding: 20px;
 }
+/* end of styling footer */
