@@ -133,21 +133,49 @@ span>b{
     background-color: honeydew;
     justify-content: center;
     align-items: center;
-    margin: 20%;
+    margin-left:300px;
+    width: 70%;
     box-shadow: 0px 0px 10px 1px grey;
+    
 }
 .customers>.cust{
-    border-right: 2px solid green;
+    border-right: 1px solid grey;
     margin: 10px;
 
 }
 .cust{
     margin: 20px;
+    opacity: 0.7;
+    padding: 70px;
+    flex: 3;
+}
+.cust>h2{
+    color: tomato;
+    
 }
 #aboutmenu
 {
     margin: 20px;
+    opacity: 0.7;
+    flex: 3;
+    padding: 70px;
 }
+#aboutmenu>h2{
+    color: red;
+}
+.evidence>a>span{
+    color: red;
+    font-size: 50px;
+    padding-top: -50px;
+}
+a{
+    text-decoration: none;
+}
+.cust>.evidence{
+    padding-top: 20px;
+    opacity: .9;
+}
+/* end of styling Customers */
 /* styling main content on food */
 #main-content{
     background-image: url("assets/backgrounds/foodsBg.jpg");
@@ -210,3 +238,4 @@ h3{
     font-size: 20px;
     text-align: center;
 }
+/* end of styling table and food section */
