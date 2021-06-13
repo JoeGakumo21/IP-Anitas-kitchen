@@ -11,8 +11,11 @@
 #logo{
     display: flex;
     justify-content: flex-start;
+    font-size: 200px;
+    color: white;
 
 }
+
 .first{
     align-items: center;
     justify-content: center;
