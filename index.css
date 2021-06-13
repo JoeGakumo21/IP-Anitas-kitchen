@@ -6,13 +6,16 @@
     background-size: cover;
     display: flex;
     height:750px;
-    
+    margin: 50px 50px 0px 50px;
 }
 #logo{
     display: flex;
     justify-content: flex-start;
     font-size: 200px;
     color: white;
+    margin-top: -500px;
+    margin-left: -700px;
+    padding-right: 250px;
 
 }
 
@@ -24,11 +27,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: white;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-bottom:-780px ;
+}
+#logo>a{
+    text-decoration: none;
+    color: white;
 }
 #section{
     display: flex;
     color: white;
     font-size: 20px;
+    margin: 0px 50px ;
 }
 .party{
     margin: 0px;
@@ -142,11 +154,13 @@ span>b{
     width: 70%;
     box-shadow: 0px 0px 10px 1px grey;
     margin-bottom: 60px;
+    height:30vh;
     
 }
 .customers>.cust{
     border-right: 1px solid grey;
     margin: 10px;
+    height: 70px;
 
 }
 .cust{
@@ -190,8 +204,7 @@ a{
     background-repeat: no-repeat;
     height: 700px;
     display: flex;
-    width: 80%;
-    margin: 200px;
+    margin: 0px 50px;
     margin-bottom: 70px;
     margin-top: 40px;
 }
@@ -211,44 +224,30 @@ font-size: 90px;
 
 }
 /* end  */
-/* table styling */
-table{
-    border-collapse: collapse;
-    width: 100%;
-    height: 50px;
-    align-items: center;
-  
-
-}
-td{
-    align-items: center;
-    position: relative;
-   
-    
-    
-}
-table,td{
-    background-color: rgb(211, 206, 206);
-    border: 1px solid grey;
-    padding: 30px;
-    color: black;
-
-}
-tr,td{
-padding: 30px;
-font-size: 40px;
-}
-tr:first-child{
-    background-color: green;
-}
-.first1{
-    background-color: white;
-    border-collapse: collapse;
-}
-#pictures{
+/* demo2 styling */
+.demo2{
     display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: grey;
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    height: 90px;
+    text-align: center;
+
+}
+.demo2-extend{
+    color: tomato;
+   
+}
+
+/* end of demo2 styling */
+#pictures{
+display: flex;
 align-items: center;
 justify-content: space-around;
+padding: 40px;
 }
 h3{
     font-size: 20px;
@@ -264,6 +263,7 @@ h3{
     color:white;
     text-align: center;
     padding: 20px;
+    margin: 0px 50px;
 }
 .details{
     display: flex;
@@ -300,6 +300,7 @@ footer{
     text-align: center;
     padding: 40px;
     color: white;
+    margin: 0px 50px;
    
 }
 .menufooter{
