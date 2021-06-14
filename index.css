@@ -264,7 +264,7 @@ h3{
     background-size: cover;
     height: 400px;
     color:white;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
     margin: 0px 50px;
 }
