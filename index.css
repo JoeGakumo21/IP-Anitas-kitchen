@@ -37,6 +37,7 @@
     color: white;
 }
 #section{
+    font-family: 'Roboto Slab', serif;
     display: flex;
     color: white;
     font-size: 20px;
@@ -239,6 +240,7 @@ font-size: 90px;
     text-align: center;
     padding-bottom: 90px;
     padding-top: -300px;
+    text-align: center;
 
 }
 .demo2-extend{
